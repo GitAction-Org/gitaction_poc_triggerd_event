@@ -1,0 +1,17 @@
+name: Push Trigger
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      GREETING: "Hello"
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
