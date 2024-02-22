@@ -9,7 +9,8 @@ on:
   #     - opened
   #     - synchronize
   schedule:
-    - cron: '*/1 * * * *'  # Run daily at midnight
+    - cron: '*/1 * * * *'  # Run very 1 min
+  workflow_dispatch:
 
 
 
