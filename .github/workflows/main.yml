@@ -9,7 +9,7 @@ on:
   #     - opened
   #     - synchronize
   schedule:
-    - cron: '* * * * *'  # Run daily at midnight
+    - cron: '*/1 * * * *'  # Run daily at midnight
 
 
 
