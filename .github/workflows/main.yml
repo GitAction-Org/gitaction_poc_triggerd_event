@@ -26,3 +26,6 @@ jobs:
 
       - name: Print the statement
         run: echo "$GREETING" 
+
+      - name: Print current time
+        run: echo "The current time is $(date)"
