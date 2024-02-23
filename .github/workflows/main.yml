@@ -8,9 +8,9 @@ on:
   #   types:
   #     - opened
   #     - synchronize
-  schedule:
-    - cron: '*/1 * * * *'  # Run very 1 min
-  workflow_dispatch:
+  # schedule:
+  #   - cron: '*/1 * * * *'
+  # workflow_dispatch:
 
 
 
